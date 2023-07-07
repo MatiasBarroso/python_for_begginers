@@ -103,6 +103,7 @@ print(resultado_mayor_igual)  # True
 # Menor o igual que
 resultado_menor_igual = 4 <= 3
 print(resultado_menor_igual)  # False
+```
 
 Recuerda que las operaciones de comparación devuelven un valor booleano (True o False) según el resultado de la comparación.
 
