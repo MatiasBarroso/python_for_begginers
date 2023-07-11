@@ -1,4 +1,4 @@
-# Clase 1: Variables y tipos de datos básicos: números, cadenas, booleanos
+# Clase 4: Variables y tipos de datos básicos: números, cadenas, booleanos
 
 En este módulo, aprenderemos sobre las variables y los tipos de datos básicos en Python. Las variables nos permiten almacenar y manipular información, y los tipos de datos nos ayudan a categorizar y trabajar con diferentes tipos de valores.
 

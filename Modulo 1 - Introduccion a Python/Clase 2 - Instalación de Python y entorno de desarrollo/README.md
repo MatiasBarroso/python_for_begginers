@@ -1,4 +1,4 @@
-# Clase 1: Instalación de Python y entorno de desarrollo
+# Clase 2: Instalación de Python y entorno de desarrollo
 
 En este módulo, aprenderemos cómo instalar Python en tu sistema y configurar un entorno de desarrollo adecuado para programar en Python.
 

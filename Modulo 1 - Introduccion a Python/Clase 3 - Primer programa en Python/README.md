@@ -1,4 +1,4 @@
-# Clase 1: Primer programa en Python: ¡Hola, mundo!
+# Clase 3: Primer programa en Python: ¡Hola, mundo!
 
 En este módulo, vamos a escribir nuestro primer programa en Python: ¡Hola, mundo! Este programa es un clásico en el mundo de la programación y es utilizado como una introducción para familiarizarse con el lenguaje.
 
