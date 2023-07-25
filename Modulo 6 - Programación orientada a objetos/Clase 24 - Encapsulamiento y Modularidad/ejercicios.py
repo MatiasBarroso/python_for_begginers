@@ -1,38 +1,33 @@
 import unittest
 
-# Actividad: Módulo Utilidades
+# Actividad: Módulo Tienda
 
-# Implementa las siguientes funciones en un módulo llamado 'utilidades.py' que se utilizará en este ejercicio.
+# Implementa las siguientes funciones en un módulo llamado 'tienda.py' que se utilizará en este ejercicio.
 
-# Función 1: Obtener el área de un círculo
-# Recibe el radio del círculo y devuelve el área calculada utilizando la fórmula: área = pi * radio^2
-def obtener_area_circulo(radio):
+# Clase Producto
+# Crea una clase llamada 'Producto' para representar un producto en una tienda de electrónicos.
+# Un producto debe tener un nombre, una categoría (como 'teléfono', 'computadora', etc.), y un precio.
+
+class Producto:
+    def __init__(self, nombre, categoria, precio):
+        self.nombre = nombre
+        self.categoria = categoria
+        self.precio = precio
+
+
+# Función 1: Obtener productos por categoría
+# Recibe una lista de productos y una categoría. Devuelve una nueva lista con los productos que pertenecen a la categoría especificada.
+def obtener_productos_por_categoria(productos, categoria):
     pass
 
-# Función 2: Obtener el área de un triángulo
-# Recibe la base y la altura del triángulo y devuelve el área calculada utilizando la fórmula: área = (base * altura) / 2
-def obtener_area_triangulo(base, altura):
+# Función 2: Calcular el total de la compra
+# Recibe una lista de productos y devuelve el precio total de la compra.
+def calcular_total_compra(productos):
     pass
 
-# Función 3: Obtener el máximo de una lista
-# Recibe una lista de números y devuelve el valor máximo de la lista utilizando la función max() de Python.
-def obtener_maximo(lista):
+# Función 3: Producto más caro
+# Recibe una lista de productos y devuelve el producto más caro de la lista.
+def obtener_producto_mas_caro(productos):
     pass
 
 
-# Tests utilizando el módulo unittest
-
-class TestUtilidades(unittest.TestCase):
-    def test_obtener_area_circulo(self):
-        self.assertEqual(obtener_area_circulo(5), 78.54)
-        self.assertEqual(obtener_area_circulo(2.5), 19.63)
-
-    def test_obtener_area_triangulo(self):
-        self.assertEqual(obtener_area_triangulo(4, 5), 10.0)
-        self.assertEqual(obtener_area_triangulo(3.5, 2.5), 4.375)
-
-    def test_obtener_maximo(self):
-        self.assertEqual(obtener_maximo([2, 5, 9, 1, 7]), 9)
-        self.assertEqual(obtener_maximo([-5, -2, -9, -1, -7]), -1)
-
-unittest.main()

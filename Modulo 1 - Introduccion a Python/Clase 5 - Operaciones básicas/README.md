@@ -49,32 +49,6 @@ La concatenación es el proceso de unir dos o más cadenas de texto en una sola 
   print(nombre_completo)  # "Juan Pérez"
   ```
 
-- **Método `format()`:** Puedes utilizar el método `format()` para formatear una cadena y reemplazar marcadores de posición por valores. Aquí tienes un ejemplo:
-
-  ```python
-  nombre = "Juan"
-  apellido = "Pérez"
-  nombre_completo = "{} {}".format(nombre, apellido)
-  print(nombre_completo)  # "Juan Pérez"
-  ```
-
-- **F-strings:** Las F-strings (cadenas con prefijo `f`) son una forma más moderna y legible de realizar concatenación de cadenas en Python 3.6 y versiones posteriores. Aquí tienes un ejemplo:
-
-  ```python
-  nombre = "Juan"
-  apellido = "Pérez"
-  nombre_completo = f"{nombre} {apellido}"
-  print(nombre_completo)  # "Juan Pérez"
-  ```
-
-Las F-strings son especialmente útiles porque permiten insertar expresiones dentro de las llaves `{}` para realizar cálculos o acceder a variables. Por ejemplo:
-
-```python
-edad = 30
-mensaje = f"Tengo {edad} años"
-print(mensaje)  # "Tengo 30 años"
-```
-
 ## Comparaciones
 
 Las operaciones de comparación se utilizan para comparar valores y evaluar si una determinada condición es verdadera o falsa. Aquí tienes algunos ejemplos de operaciones de comparación:

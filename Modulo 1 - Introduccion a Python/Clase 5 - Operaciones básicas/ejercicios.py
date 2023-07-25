@@ -6,7 +6,7 @@ area_triangulo = # Completa el código aquí
 print("El área del triángulo es:", area_triangulo)
 
 # Ejercicio 2
-# Concatena las cadenas "Hola" y "Mundo" utilizando F-strings.
+# Concatena las cadenas "Hola" y "Mundo".
 cadena1 = "Hola"
 cadena2 = "Mundo"
 mensaje = # Completa el código aquí
@@ -18,14 +18,6 @@ print(mensaje)
 es_mayor = # Completa el código aquí
 print("¿El número 20 es mayor que la suma de 8 y 10?", es_mayor)
 
-# Ejercicio 4
-# Crea una función llamada "saludo_personalizado" que reciba dos parámetros: nombre y edad.
-# La función debe retornar un saludo personalizado que incluya el nombre y la edad.
-# Utiliza F-strings para crear el saludo.
-# Ejemplo: "¡Hola Juan! Tienes 25 años."
-def saludo_personalizado(nombre, edad):
-    saludo = # Completa el código aquí
-    return saludo
 
 # Ejercicio 5
 # Llama a la función "saludo_personalizado" con tu nombre y edad, y muestra el resultado en la consola.
