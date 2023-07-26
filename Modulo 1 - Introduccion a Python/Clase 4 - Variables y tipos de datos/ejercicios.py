@@ -21,7 +21,7 @@ number1 = 0
 number2 = 0
 
 # Escribe las variables sum, rest, multiplication y division y asignale el valor de su operacion matemática correspondientes 
-# con las variables declaradas anteriormente como numero1 y numero2 (originalmente declarada en 0)
+# con las variables declaradas anteriormente como numero1 y numero2
 # Ejemplo:
 sum = number1 + number2
 rest = # Completa el código aquí
@@ -88,3 +88,5 @@ print(new_message)
 numeric_string = "123"
 string_to_number = # Completa el código aquí
 print(string_to_number)
+
+#Una vez terminadas las actividades puedes autoevaluar tus respuestas con ejecutando el archivo test_ejercicios.py
